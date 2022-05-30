@@ -1,0 +1,40 @@
+{
+  "name": "hardhat-question",
+  "version": "1.0.0",
+  "description": "Just a little sandbox to illustrate a question about a hardhat-deploy plugin for a MCS course",
+  "author": "Andrey Sakharov <caxap_8787@mail.ru> (https://www.linkedin.com/in/andrey-sakharov/)",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "hh": "hardhat node",
+    "clean": "hardhat clean",
+    "compile": "hardhat clean && hardhat compile",
+    "deploy": "hardhat deploy",
+    "example": "hardhat run scripts/example.js",
+    "test": "hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muturgan/hardhat-question.git"
+  },
+  "keywords": [
+    "hardhat",
+    "solidity",
+    "ethereum"
+  ],
+  "bugs": {
+    "url": "https://github.com/muturgan/hardhat-question/issues"
+  },
+  "homepage": "https://github.com/muturgan/hardhat-question#readme",
+  "devDependencies": {
+    "@types/chai": "^4.3.1",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "^14.18.18",
+    "chai": "^4.3.6",
+    "chai-ethers": "^0.0.1",
+    "ethers": "^5.6.8",
+    "hardhat": "^2.9.6",
+    "hardhat-deploy": "^0.11.10",
+    "hardhat-deploy-ethers": "^0.3.0-beta.13"
+  }
+}
